@@ -1,0 +1,11 @@
+/* Import eksternal CSS terlebih dahulu */
+@import "quill/dist/quill.core.css";
+@import "flowbite/src/themes/default";
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Plugin dan lainnya */
+@plugin "flowbite/plugin";
